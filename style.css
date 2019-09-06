@@ -25,7 +25,8 @@ h1 {
 }
 
 .hero {
-    background: url('img/top_2048.jpg') center;
+    background-image: url('img/top_2048.jpg');
+    background-position: center;
     background-size: cover;
     padding: 4rem 2rem;
     display: grid;
@@ -55,9 +56,10 @@ h1 {
 .offering > ul > li {
     border: 1px solid #E2E2E2;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
-.offering > ul > li > figure {
+.offering > ul > li > .front > figure {
     max-height: 220px;
     overflow: hidden;
     border-top-left-radius: .5rem;
@@ -66,29 +68,41 @@ h1 {
     margin: 0px;
 }
 
-.offering > ul > li > figure > img {
+.offering > ul > li > .front  > figure > img {
     width: 100%;
     filter: grayscale(100%);
 }
 
-.offering > ul > li > figure > figcaption {
+.offering > ul > li > .front  > figure > figcaption {
     position: absolute;
     bottom: 0;
     background-color: rgba(0,0,0,.7);
     width: 100%;
 }
 
-.offering > ul > li > figure > figcaption > h3 {
+.offering > ul > li > .front  > figure > figcaption > h3 {
     color: white;
     padding: .75rem;
     font-size: 1.25rem;
 }
 
-.offering > ul > li > p {
+.offering > ul > li > .front  > p {
     font-size: 1rem;
     line-height: 1.5;
     padding: 1rem .75rem;
     color: #666666;
+}
+
+.back {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+}
+
+.hide {
+    display: none;
 }
 
 .contact > ul {
