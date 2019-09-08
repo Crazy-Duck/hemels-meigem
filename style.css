@@ -25,12 +25,12 @@ h1 {
 }
 
 .hero {
-    background-image: url('img/top_2048.jpg');
+    background-image: url('img/hero.jpg');
     background-position: center;
     background-size: cover;
     padding: 4rem 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: center;
     text-align: right;
 }
