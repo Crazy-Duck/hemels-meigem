@@ -70,7 +70,7 @@ h1 {
 
 .offering > ul > li > .front  > figure > img {
     width: 100%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .offering > ul > li > .front  > figure > figcaption {
