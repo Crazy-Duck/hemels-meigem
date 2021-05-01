@@ -24,6 +24,10 @@ h1 {
     margin-right: 2em;
 }
 
+.red {
+    color: red;
+}
+
 .hero {
     background-image: url('img/hero.jpg');
     background-position: center;
